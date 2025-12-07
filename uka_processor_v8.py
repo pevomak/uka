@@ -191,7 +191,7 @@ class UKAProcessor:
             console.print(Panel(
                 f"[bold magenta]PAYMENT REQUIRED[/]\n"
                 f"Task: {self.task_id}\n"
-                f"Amount: {PAID_PRICE_SATS sats\n"
+                f"Amount: {PAID_PRICE_SATS sats}\n"
                 f"Invoice: {payment.get('bolt11', payment.get('url'))}",
                 title="Lightning Invoice"
             ))
